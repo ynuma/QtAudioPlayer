@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QMediaPlayer>
+#include <QtMultimedia>
 
 namespace Ui {
 class MainWindow;
@@ -12,8 +12,6 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-private:
-protected:
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
